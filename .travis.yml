@@ -3,9 +3,9 @@ language: python
 sudo: false
 python:
   - "3.8"
- 
+
 script:
-- python main.py
- 
+  - python main.py
+
 after-sucess:
-- bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)
